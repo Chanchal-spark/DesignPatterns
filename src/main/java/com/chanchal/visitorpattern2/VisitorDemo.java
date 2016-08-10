@@ -9,7 +9,7 @@ interface Element {
 
 // abstract visitor class
 interface Visitor {
-	// in place of visit, the functions have to be inorder and preorder
+	// in place of visit, the functions have to	 be inorder and preorder
 	public void visit(BinaryTre bt);
 
 	// public void preorder( Binary_tree t );
